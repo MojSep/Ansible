@@ -1,0 +1,10 @@
+﻿
+# make virtual enviro..  in  python for pip install ansible 
+
+python3 -m venv venvansible
+source venvansible/bin/activate
+
+
+pip install ansible
+pip install paramiko
+pip install ansible-pylibssh
