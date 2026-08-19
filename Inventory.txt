@@ -1,0 +1,2 @@
+﻿Debian13   ansible_host=192.168.239.139
+CentOS8    ansible_host=192.168.239.130
