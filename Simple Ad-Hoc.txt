@@ -1,0 +1,9 @@
+﻿ansible  localhost -m gather_facts
+
+# get distribution version and name and about distribution
+
+ansible  localhost -m gather_facts | grep "ansible_distribution"
+
+
+
+export ANSIBLE_HOST_KEYCHECKING=false

@@ -1,0 +1,18 @@
+﻿
+ansible-vault create <file>
+# یک فایل رمزنگاری‌شده جدید ایجاد می‌کند.
+
+ansible-vault encrypt <file>
+#یک فایل موجود را رمزنگاری می‌کند.
+
+ansible-vault view <file>
+#	محتوای فایل رمزنگاری‌شده را بدون ویرایش نمایش می‌دهد.
+
+ansible-vault edit <file>
+#	فایل رمزنگاری‌شده را برای ویرایش باز می‌کند.
+
+ansible-vault rekey <file>
+#	رمز عبور فایل رمزنگاری‌شده را تغییر می‌دهد.
+
+ansible-vault decrypt <file>
+#	فایل را به‌طور دائمی رمزگشایی می‌کند (با احتیاط استفاده شود
